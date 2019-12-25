@@ -16,7 +16,7 @@ This is an implement of Seq2Seq model for Chinese lyrics generating combined wit
 - Linux
 ```
 cd ChineseLyricsGenerator-Seq2Seq/
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 python3 manage.py runserver 0.0.0.0:8000
 ```
 
