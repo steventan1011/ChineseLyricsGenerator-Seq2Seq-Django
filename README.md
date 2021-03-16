@@ -2,10 +2,18 @@
 
 This is an implement of Seq2Seq model for Chinese lyrics generating combined with website visualization (Django).
 
+- Algorithm: Using Seq2Seq to generate lyrics by a given sentence. The code is in ./backend, which is forked and edited from https://github.com/dengxiuqi/Lyricist-torch.
+
+  <img src="https://i.loli.net/2021/03/17/zsRJXTFKjmWevYk.png" alt="image-20210317015320194" style="zoom:50%;" />
+
+- Web development: Using Django to develop the webpage.
+
+  <img src="https://i.loli.net/2021/03/17/vxiLpRWPISmYaMs.png" alt="image-20210317015648875" style="zoom: 67%;" />
+
 ## Dependencies
 
-- Python = 3.6.7
-- Django = 2.1.8
+- Python == 3.6.7
+- Django == 2.1.8
 - torch==1.3.1
 - torchtext==0.4.0
 - jieba==0.39
@@ -20,10 +28,13 @@ This is an implement of Seq2Seq model for Chinese lyrics generating combined wit
 
 ```
 cd ChineseLyricsGenerator-Seq2Seq/
+# you can also create a virtual environment here
 pip3 install -r requirements.txt
 python3 manage.py migrate
 python3 manage.py runserver 0.0.0.0:8000
 ```
+
+- Open http://localhost:8000
 
 ## References
 
