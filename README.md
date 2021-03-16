@@ -1,6 +1,6 @@
 # ChineseLyricsGenerator-Seq2Seq-Django
 
-This is an implement of Seq2Seq model for Chinese lyrics generating combined with website visualization (Django).
+This is an implement of **Seq2Seq model** for **Chinese lyrics generating** combined with **website visualization (Django)**.
 
 - Algorithm: Using Seq2Seq to generate lyrics by a given sentence. The code is in ./backend, which is forked and edited from https://github.com/dengxiuqi/Lyricist-torch.
 
