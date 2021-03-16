@@ -1,4 +1,4 @@
-# ChineseLyricsGenerator-Seq2Seq
+# ChineseLyricsGenerator-Seq2Seq-Django
 
 This is an implement of Seq2Seq model for Chinese lyrics generating combined with website visualization (Django).
 
@@ -38,18 +38,16 @@ python3 manage.py runserver 0.0.0.0:8000
 
 ## Result
 
-- The training and validation accuracy is as below.
+- Quantitative: The training and validation accuracy is as below.
 
   <img src="https://i.loli.net/2021/03/17/aonTbH8QxvFJqMm.png" alt="image-20210317020142306" style="zoom: 67%;" />
 
-- We can also analyze some examples:
+- Qualitative: We can also analyze some examples:
 
-  - <img src="https://i.loli.net/2021/03/17/jdLUzoyMhePIYaw.png" alt="image-20210317020413356" style="zoom:67%;" />
-    - “我的机场把你留”一句，出自《新走西口》的“我在机场把你留”一句；
-    - “可爱的英格鸟”出自《达那巴拉》中对于“可爱的英格鸟呀它在哪里落脚歌唱”、“可爱的英格鸟呀可在山顶放声歌唱”等句；
-    - “我的天堂”、“你的天堂”几句，出自腾格尔经典歌曲《天堂》；
-    - “这世界不会再有痛苦”出自《有你有我》中“明天不会有痛苦”、“世界的未来属于你我”两句的组合。
   - <img src="https://i.loli.net/2021/03/17/3AjV7UGL9YFONfq.png" alt="image-20210317020503555" style="zoom: 67%;" />
+
+    
+
     - “我搅拌害羞的笑”一句，出自《甜甜的》中“加一个奶球我搅拌害羞”一句；
     - “将甜度调高后再牵手”、“你的爱太多” 两句，出自《甜甜的》中“将甜度调高后再牵手”、“你的爱太多”原句；
     - “像这样的生活”、“我爱你”两句，出自《简单爱》中“像这样的生活”、“我爱你”原句；
